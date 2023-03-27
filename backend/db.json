@@ -1,0 +1,198 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "oraganization_mail": "mega@mail.com",
+        "project_name": "My app",
+        "project_description": "A great app about anything you can dream of, just to good to be true!",
+        "project_location": "-34.3763, -55.2353",
+        "developer_in_charge":"",
+        "done":"false"
+
+      },
+      {
+        "id": 2,
+        "oraganization_mail": "great@mail.com",
+        "project_name": "Fantastic Web",
+        "project_description": "What can I tell? It's simply fantastic, nothing more to add.",
+        "project_location": "-34.3704, -55.2231",
+        "developer_in_charge":"",
+        "done":"false"
+      },
+      {
+        "id": 3,
+        "oraganization_mail": "mega@mail.com",
+        "project_name": "Incredible Things",
+        "project_description": "An indeed fantastic project, you won't bealive until you see it for yourself",
+        "project_location": "-34.3657, -55.2125",
+        "developer_in_charge":"",
+        "done":"false"
+      },
+{
+        "id": 4,
+        "oraganization_mail": "great@mail.com",
+        "project_name": "Great Project",
+        "project_description": "Have you ever seen a great project before? Well, you haven't, cause this is real greatness.",
+        "project_location": "-34.3564, -55.2483",
+        "developer_in_charge":"",
+        "done":"false"
+      },
+{
+        "id": 5,
+        "oraganization_mail": "great@mail.com",
+        "project_name": "Saint Sanctus",
+        "project_description": "My goodness, be in heaven someday it's not impossible right now, buy me a ticket today, enjoy paradise for ever!",
+        "project_location": "-34.3826, -55.2653",
+        "developer_in_charge":"",
+        "done":"false"
+      },
+      {
+              "id": 6,
+              "oraganization_mail": "mega@mail.com",
+              "project_name": "Big Web",
+              "project_description": "This is just a big webpage with lot's of funny stuff and very complex design",
+              "project_location": "-34.3564, -55.2483",
+              "developer_in_charge":"simmons@mail.com",
+              "done":"false"
+            },
+      {
+              "id": 7,
+              "oraganization_mail": "great@mail.com",
+              "project_name": "Great App",
+              "project_description": "Ohhh yeah!!! This is the most fantastic you'll ever gonna see in your whole life, we guarantee it!",
+              "project_location": "-34.3826, -55.2653",
+              "developer_in_charge":"rey@mail.com",
+              "done":"false"
+      },
+      {
+              "id": 8,
+              "oraganization_mail": "mega@mail.com",
+              "project_name": "Huge Blog",
+              "project_description": "I assure you, thay you have never witness a blog just like this, is simply amazing!",
+              "project_location": "-34.3826, -55.2653",
+              "developer_in_charge":"simmons@mail.com",
+              "done":"true"
+      },
+      {
+              "id": 9,
+              "oraganization_mail": "great@mail.com",
+              "project_name": "Monster Webapp",
+              "project_description": "Can you bealive your eyes? Of course you can't, but it's true, we have such a cute webapp",
+              "project_location": "-34.3826, -55.2653",
+              "developer_in_charge":"rey@mail.com",
+              "done":"true"
+      }
+    ]
+    ,
+    "developers": [
+      {
+        "id": 1,
+        "user_name": "Rey",
+        "email": "rey@mail.com",
+        "password": "12345",
+        "type": "developer"
+      },
+      {
+        "id": 2,
+        "user_name": "Simmons",
+        "email": "simmons@mail.com",
+        "password": "12345",
+        "type": "developer"
+      }
+    ]
+    ,
+    "developers_info":[{
+      "id":"1",
+      "email":"simmons@mail.com",
+      "addres_street": "EverLiving",
+      "city":"Springfield",
+      "country":"USA",
+      "address_number":"589",
+      "phone":"023564987",
+      "programming_languajes":"",
+      "english_level":"Upper Intermediate",
+      "github_link":"github.com/cyborg",
+      "linkedin":"linkedin.com/dc",
+      "description":"I hate Marvel",
+      "avatar":"https://upload.wikimedia.org/wikipedia/en/3/35/Supermanflying.png"
+          },
+          {
+          "id":"2",
+        "email":"rey@mail.com",
+      "addres_street": "Elm",
+      "city":"Krueger",
+      "country":"USA",
+      "address_number":"666",
+      "phone":"069696969",
+      "programming_languajes":"Java, C#, Objective C, Kotlin, PHP",
+      "english_level":"Almost Native",
+      "github_link":"github.com/vision",
+      "linkedin":"linkedin.com/marvel",
+      "description":"I hate DC",
+      "avatar":"https://upload.wikimedia.org/wikipedia/en/8/8c/Captain_America_%28Steve_Rogers%29.png"
+          }
+          ]
+          ,
+    "organizations": [
+      {
+        "id": 1,
+        "user_name": "MegaThings",
+        "email": "mega@mail.com",
+        "password": "12345",
+        "type": "organization",
+        "org_sector":"Education",
+        "org_description":"We love to work for children's future",
+        "org_phone":"036598474",
+        "org_web":"megathings.org",
+        "org_manifest":"We are such a lovely organization, everybody loves organizations that work hard for the children's future"
+      },
+      {
+        "id": 2,
+        "user_name": "GreatDeal",
+        "email": "great@mail.com",
+        "password": "12345",
+        "type": "organization",
+        "org_sector":"Food Security",
+        "org_description":"We are here to assure food to all humanity",
+        "org_phone":"065917453",
+        "org_web":"greatdeal.org",
+        "org_manifest":"Our word is worth something you know... we won't expoilt you as if you were slave labour force"
+      }
+    ]
+    ,
+      "admins": [
+        {
+          "id": 1,
+          "user_name": "Serge",
+          "email": "serge@mail.com",
+          "password": "12345",
+          "type": "admin"
+        },
+        {
+          "id": 2,
+          "user_name": "Mike",
+          "email": "mike@mail.com",
+          "password": "12345",
+          "type": "admin"
+        }
+    ]
+    ,
+    "reviews": [
+      {
+        "id": 1,
+        "organization_mail": "great@mail.com",
+        "developer_mail": "rey@mail.com",
+        "project": "7",
+        "stars": 3,
+        "comment": "Good experiencie but the developer refused to work for free more than 16 hours a day, and we did not liked that... we wanted 24/24"
+      },
+      {
+        "id": 2,
+        "organization_mail": "mega@mail.com",
+        "developer_mail": "simmons@mail.com",
+        "project": "6",
+        "stars": 4,
+        "comment": "Good pal, almost 5 on 5, but we don't like number 5"
+      }
+  ]
+}

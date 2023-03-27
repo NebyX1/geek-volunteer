@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+
+.social-icon, .custom-nav-link {
+  transition: all 0.3s;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #621084;
+  text-align: center;
+  line-height: 30px;
+}
+
+.social-icon:hover {
+  background-color: #f8f9fa;
+  color: #FDC829;
+  transform: scale(1.2);
+}
+
+.custom-nav-link {
+  color: #621084;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.custom-nav-link:hover {
+  color: #FDC829;
+  transform: scale(1.1);
+}
+
+.copyright{
+  color: #621084;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-logo-text{
+  text-decoration: none !important;
+  color: #621084;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.nav-logo-text:hover{
+  text-decoration: none !important;
+  color: #621084;
+}
+
+.nav-logo-img{
+  height: 70px;
+  width: 70px;
+  margin-right: 10px;
+}
+
+.home{
+font-family: 'Roboto', sans-serif;
+}
+
+.div-color{
+  background-color: #621084;
+}
+.separator{
+  height: 3%;
+  background-color: white;
+}
+
+.search-box-sizing{
+width: 50vh;
+height: 40vh;
+}
+
+.buttonSubmit{
+  width: 15vh; 
+  height: 5vh;
+  color: #621084;
+  background-color: white;
+  transition: all 0.3s;
+}
+
+
+.buttonSubmit:hover{
+  background-color: #FDC829;
+  color: white;
+  transform: scale(1.1);
+}
+
+.donate-box-sizing{
+  height: 20vh;
+  background-color: #FDC829;
+  }
+
+  .buttonDonate{
+    width: 15vh; 
+    height: 5vh;
+    color: #621084;
+    background-color: white;
+    transition: all 0.3s;
+  }
+  
+  
+  .buttonDonate:hover{
+    background-color: #621084;
+    color: white;
+    transform: scale(1.1);
+  }
+
+  .container-box {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .infoBox1,
+  .infoBox2 {
+    width: calc(50% - 10px);
+    height: 50vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .infoBox1 {
+    background-image: url(../images/InfoBox1.png);
+  }
+  
+  .infoBox2 {
+    background-image: url(../images/InfoBox2.png);
+  }
+
+  @media (max-width: 1200px) {
+    .responsive-text {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .responsive-text {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .responsive-text {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .responsive-text {
+      font-size: 1rem;
+    }
+  }
